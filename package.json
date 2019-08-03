@@ -10,7 +10,7 @@
   "author": "",
   "engines": {
     "node": 11,
-    "npm": "lastest"
+    "npm": "^6"
   },
   "license": "ISC",
   "dependencies": {
