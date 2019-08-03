@@ -6,7 +6,7 @@
         <key>texturePackerVersion</key>
         <string>4.3.3</string>
         <key>fileName</key>
-        <string>D:/sync/www/2019/game-jams/gmtk-2019/res/ui.tps</string>
+        <string>D:/sync/www/2019/game-jams/gmtk-2019/res/only-one.tps</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -58,7 +58,7 @@
         <key>jxrCompressionLevel</key>
         <uint>0</uint>
         <key>ditherType</key>
-        <enum type="SettingsBase::DitherType">PngQuantHigh</enum>
+        <enum type="SettingsBase::DitherType">PngQuantLow</enum>
         <key>backgroundColor</key>
         <uint>0</uint>
         <key>libGdx</key>
@@ -150,7 +150,7 @@
             <key>data</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../public/sys/img/assets/ui.json</filename>
+                <filename>../public/sys/img/assets/only-one-animation.json</filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -158,9 +158,9 @@
         <key>forceIdenticalLayout</key>
         <false/>
         <key>outputFormat</key>
-        <enum type="SettingsBase::OutputFormat">RGBA8888</enum>
+        <enum type="SettingsBase::OutputFormat">RGB888</enum>
         <key>alphaHandling</key>
-        <enum type="SettingsBase::AlphaHandling">ClearTransparentPixels</enum>
+        <enum type="SettingsBase::AlphaHandling">KeepTransparentPixels</enum>
         <key>contentProtection</key>
         <struct type="ContentProtection">
             <key>key</key>
@@ -177,7 +177,7 @@
             <key>scale</key>
             <double>1</double>
             <key>scaleMode</key>
-            <enum type="ScaleMode">Fast</enum>
+            <enum type="ScaleMode">Smooth</enum>
             <key>extrude</key>
             <uint>1</uint>
             <key>trimThreshold</key>
@@ -185,7 +185,7 @@
             <key>trimMargin</key>
             <uint>1</uint>
             <key>trimMode</key>
-            <enum type="SpriteSettings::TrimMode">Trim</enum>
+            <enum type="SpriteSettings::TrimMode">CropKeepPos</enum>
             <key>tracerTolerance</key>
             <int>200</int>
             <key>heuristicMask</key>
@@ -197,24 +197,67 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">buttons/buttons_newGame-01.svg</key>
+            <key type="filename">only-one/frame_00_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_01_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_02_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_03_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_04_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_05_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_06_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_07_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_08_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_09_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_10_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_11_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_12_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_13_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_14_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_15_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_16_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_17_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_18_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_19_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_20_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_21_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_22_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_23_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_24_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_25_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_26_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_27_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_28_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_29_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_30_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_31_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_32_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_33_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_34_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_35_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_36_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_37_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_38_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_39_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_40_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_41_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_42_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_43_delay-0.04s.png</key>
+            <key type="filename">only-one/frame_44_delay-0.04s.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>41,12,82,25</rect>
+                <rect>150,85,300,169</rect>
                 <key>scale9Paddings</key>
-                <rect>41,12,82,25</rect>
+                <rect>150,85,300,169</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
         </map>
         <key>fileList</key>
         <array>
-            <filename>buttons</filename>
-            <filename>ui</filename>
+            <filename>only-one</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

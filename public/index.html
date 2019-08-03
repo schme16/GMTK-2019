@@ -37,12 +37,13 @@
 		<link rel="stylesheet" type="text/css" href="sys/css/styles.css" >
 
 	<!--Scripts-->
-		<script src="node_modules/jquery/dist/jquery.min.js"></script>
+		<script src="node_modules/jquery/dist/jquery.min.js" onload="module = {}"></script>
 		<script src="node_modules/pixi.js/dist/pixi.min.js"></script>
 		<script src="node_modules/howler/dist/howler.min.js"></script>
 		<script src="node_modules/hotkeys-js/dist/hotkeys.min.js"></script>
-		<script src="node_modules/HTML5-JavaScript-Gamepad-Controller-Library/gamepad.min.js"></script>
+		<script src="node_modules/lerp/index.js"></script>
 		<script src="node_modules/gsap/src/minified/TweenLite.min.js"></script>
+		<script src="sys/js/Controller.min.js"></script>
 
 	<!--The title-->
 		<title>GMTK 2019 - Theme: Only One</title>
@@ -67,14 +68,10 @@
 	<script src="sys/js/game.js"></script>
 
 	<!-- Load the list of levels -->
-	<script src="sys/levels/menu.js" onload="game.loadLevel('menu')"></script>
-	<script src="sys/levels/1.js"></script>
+	<script src="sys/levels/test.js"></script>
+	<script src="sys/levels/splashscreen.js"></script>
+	<script src="sys/levels/menu.js"></script>
+	<script src="sys/levels/weapon-room.js" onload="game.loadLevel('weapon-room')"></script>
 
-
-
-	<script>
-
-	</script>
-	
 </body>
 </html>

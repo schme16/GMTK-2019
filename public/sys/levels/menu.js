@@ -3,6 +3,7 @@ game.addLevel(() => {
 	let level = {
 		name: 'menu',
 		objects: {},
+		bgColour: 0xffffff,
 		containers: {
 			stage: new PIXI.Container()
 		},
@@ -33,7 +34,7 @@ game.addLevel(() => {
 		},
 
 		startNewGame: () => {
-			game.loadLevel('test')
+			game.loadLevel('weapon-room')
 		},
 
 	}
