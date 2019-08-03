@@ -1,0 +1,20 @@
+{"frames": {
+
+"buttons_newGame-01":
+{
+	"frame": {"x":1,"y":1,"w":163,"h":49},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":163,"h":49},
+	"sourceSize": {"w":163,"h":49}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "ui.png",
+	"format": "RGBA8888",
+	"size": {"w":256,"h":64},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:b10c1864baffa8437ad0e0ec9b297980:ea9e0a07582072c3ffcb197a520a3030:5b04aa198265472a3c5f56958d78e97b$"
+}
+}

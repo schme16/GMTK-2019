@@ -1,6 +1,8 @@
-(() => {
+//Add the level to the game
+game.addLevel((i) => {
 	let level = {
-		name: 1,
+		name: 'test',
+		objects: {},
 		containers: {
 			stage: new PIXI.Container()
 		},
@@ -32,12 +34,9 @@
 		},
 
 		loop: (delta) => {
-			level.containers.stage.rotation -= 0.01 * delta
+			level.containers.stage.rotation -= 0.005 * delta
 		}
-
 	}
 
-
-	//Add the level to the game
-	game.addLevel(level)
-})()
+	return level
+})

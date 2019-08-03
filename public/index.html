@@ -39,33 +39,41 @@
 	<!--Scripts-->
 		<script src="node_modules/jquery/dist/jquery.min.js"></script>
 		<script src="node_modules/pixi.js/dist/pixi.min.js"></script>
+		<script src="node_modules/howler/dist/howler.min.js"></script>
+		<script src="node_modules/hotkeys-js/dist/hotkeys.min.js"></script>
+		<script src="node_modules/HTML5-JavaScript-Gamepad-Controller-Library/gamepad.min.js"></script>
 		<script src="node_modules/gsap/src/minified/TweenLite.min.js"></script>
 
 	<!--The title-->
 		<title>GMTK 2019 - Theme: Only One</title>
 
+	
+	<!-- https://gmtk-2019.herokuapp.com/ -->
+	
 
-
+	<!-- If you're looking at this, good on ya for being a snoopy snooperson! -->
+	<!-- Check out my github: https://github.com/schme16 -->
+	<!-- Or take a look at the repo for this game: https://github.com/schme16/GMTK-2019 -->
+	<!-- Heck you could even tweet me @schme16 if you really wanted to-->
 
 
 </head>
 <body>
-
+	
 	<canvas></canvas>
+
 
 	<!-- Load the 'engine' -->
 	<script src="sys/js/game.js"></script>
 
 	<!-- Load the list of levels -->
+	<script src="sys/levels/menu.js" onload="game.loadLevel('menu')"></script>
 	<script src="sys/levels/1.js"></script>
 
 
 
 	<script>
-		//load the first level TODO: Make this a UI trigger instead
-		setTimeout(() => {
-			game.loadLevel(1)
-		}, 32)
+
 	</script>
 	
 </body>

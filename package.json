@@ -14,6 +14,7 @@
   },
   "license": "ISC",
   "dependencies": {
+    "HTML5-JavaScript-Gamepad-Controller-Library": "git+https://github.com/kallaspriit/HTML5-JavaScript-Gamepad-Controller-Library.git",
     "compression": "^1.7.4",
     "express": "^4.17.1",
     "font-awesome": "^4.7.0",
