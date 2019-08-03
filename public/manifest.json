@@ -1,0 +1,15 @@
+{
+	"name": "GMTK 2019 - Theme: Only One",
+	"icons": [
+		{
+			"src": "sys/img/icons/gmtk-gj.jpg",
+			"sizes": "400x400",
+			"type": "image/jpg"
+		}
+	],
+	"theme_color": "#9E9E9E",
+	"background_color": "#9E9E9E",
+	"start_url": "index.html",
+	"display": "standalone",
+	"orientation": "portrait"
+}

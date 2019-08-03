@@ -1,0 +1,6 @@
+{
+	"watch": ["index.js"],
+	"execMap": {
+		"js": "node --always-compact --max_old_space_size=60  --nouse-idle-notification --expose-gc"
+	}
+}
