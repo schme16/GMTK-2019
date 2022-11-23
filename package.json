@@ -25,7 +25,7 @@
     "lerp": "^1.0.3",
     "normalize.css": "^8.0.1",
     "pixi.js": "^5.1.0",
-    "socket.io": "^2.2.0",
+    "socket.io": "^2.5.0",
     "typeface-open-sans": "0.0.75"
   }
 }
